@@ -14,7 +14,7 @@ import {
   faEnvelope,
   faSuitcase,
   faBars,
-  faClose,
+  faNewspaper,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, NavLink } from "react-router-dom";
 
@@ -60,13 +60,14 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon
+        <NavLink
+          activeclassname="active"
+          className="resume-link"
+          to="https://docs.google.com/document/d/1t5fy11NqeZF-LvIVNy153u0M8K94KKr-ymNsjrihfFo/edit"
           onClick={() => setShowNav(false)}
-          icon={faClose}
-          color="#ff6600"
-          size="3x"
-          className="close-icon"
-        />
+        >
+          <FontAwesomeIcon icon={faNewspaper} color="#4d4d4e" />
+        </NavLink>
       </nav>
       <ul>
         <li>
