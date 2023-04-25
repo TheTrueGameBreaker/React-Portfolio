@@ -32,7 +32,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p class="about">
             My Name is Davis Nigel Genthner I am currently 20 years old and have
             about 4 years work experience in various restaurants and fast food
             locations. I personally think that I learn fast, and bring a general
