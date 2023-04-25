@@ -13,7 +13,7 @@ import "./index.scss";
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const [portfolio, setPortfolio] = useState([]);
+  const [portfolio] = useState([]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -35,7 +35,7 @@ const Portfolio = () => {
             A simple application where users can share life stories.
           </p>
           <br></br>
-          <img src={Hello} class="portfolio-image"></img>
+          <img src={Hello} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://thetruegamebreaker.github.io/Weather-API-Project-Fixed/">
           <p class="title">Weather App</p>
@@ -43,7 +43,7 @@ const Portfolio = () => {
             A basic application that allows you to look up a city and get{" "}
             <br></br> the 5 day weather forcast.
           </p>
-          <img src={Weather} class="portfolio-image"></img>
+          <img src={Weather} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://thetruegamebreaker.github.io/DND-Character-Generator/">
           <p class="title">DnD Character Generator</p>
@@ -51,24 +51,24 @@ const Portfolio = () => {
             A quick and easy dungeons and dragons character generator.
           </p>{" "}
           <br></br>
-          <img src={DND} class="portfolio-image"></img>
+          <img src={DND} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://pwa-davis-genthner.herokuapp.com/">
           <p class="title">Text Editor</p>
           <p class="description"> Just anothe text editor.</p>
-          <img src={JATE} class="portfolio-image"></img>
+          <img src={JATE} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://thetruegamebreaker.github.io/DavisGenthnerPasswordGenerator/">
           <p class="title">Password Generator</p>
           <p class="description">
             A password generator with many options for customization.
           </p>
-          <img src={PWG} class="portfolio-image"></img>
+          <img src={PWG} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://thetruegamebreaker.github.io/DavisGenthnerDailyPlanner/">
           <p class="title">Work Day Planner</p>
           <p class="description">A simple daily planner.</p>
-          <img src={WDS} class="portfolio-image"></img>
+          <img src={WDS} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://thetruegamebreaker.github.io/Quiz-game/">
           <p class="title">Coding Quiz Game</p>
@@ -76,7 +76,7 @@ const Portfolio = () => {
             A very basic coding quiz game. I made this when I was just <br></br>{" "}
             beggining so please forgive the easy questions and poor design
           </p>
-          <img src={Quiz} class="portfolio-image"></img>
+          <img src={Quiz} class="portfolio-image" alt="not found"></img>
         </Link>
         <Link to="https://present-pear.herokuapp.com/">
           <p class="title">Present Pear</p>
@@ -85,7 +85,7 @@ const Portfolio = () => {
             A application that lets you anonymously <br></br> register to give
             and recive gifts
           </p>
-          <img src={PresentPear} class="portfolio-image"></img>
+          <img src={PresentPear} class="portfolio-image" alt="not found"></img>
         </Link>
       </div>
     );
